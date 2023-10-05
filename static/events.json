@@ -1,13 +1,2 @@
 [
-    {
-        "id": "N56",
-        "type": "Football",
-        "title": "Real Madrid vs Girona",
-        "message": "",
-        "start_date": "Saturday, September 30 2023. at 17:30:00",
-        "end_date": "Saturday, September 30 2023. at 19:20:00",
-        "notification": 900,
-        "snoozetime": 3600,
-        "status": "passed"
-    }
 ]
