@@ -1,0 +1,29 @@
+{
+    "worker-frq": 10,
+    "default-snooze-time": 3600,
+    "default-notification-time": 1200,
+    "paths": {
+        "data": "static/events.json",
+        "icon": "static/python.ico",
+        "worker-state": "static/state.conf"
+    },
+    "formats": {
+        "datetime": "%A, %B %d %Y. at %H:%M:%S"
+    },
+    "timeouts": {
+        "info": 3,
+        "remider": 5,
+        "event": 5
+    },
+    "keyboard-hotkeys":{
+        "cancel": "<alt>+c",
+        "done": "<alt>+d",
+        "snooze": "<alt>+s"
+    },
+    "timeout": {
+        "passed": 4,
+        "reminder": 5,
+        "notification": 6
+    }
+
+}
