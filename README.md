@@ -3,4 +3,4 @@ Secheduler is an open source command line software that helps you organize your 
 
 to run:
 
-python main.py
+-python main.py
