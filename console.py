@@ -5,6 +5,18 @@ class Success:
     def log(self, logger):
         for msg in self.msgs:
             logger.log(msg)
+    
+    def warn(self, logger):
+        for wrn in self.wrns:
+            logger.warn(wrn)
+
+    def info(self, logger):
+        for inf in self.infs:
+            logger.info(inf)
+
+    def error(self, logger):
+        for err in self.errs:
+            logger.error(err)
         
 class Bundle:
     def __init__(self, *logs):
